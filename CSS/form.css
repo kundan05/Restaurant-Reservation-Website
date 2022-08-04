@@ -1,0 +1,63 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    background: url(/images/login.jpg);
+    background-size: cover;
+}
+.signin-box{
+    width: 320px;
+    height: 280px;
+    background: #000;
+    border-radius: 10px;
+    opacity: 0.8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:#fff;
+    box-sizing: border-box;
+    padding: 30px 20px;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+}
+.signin-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.signin-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.signin-box input[type="text"] , input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.signin-box button[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.signin-box button[type="submit"]:hover{
+    cursor: pointer;
+    background: greenyellow;
+    color: #000;
+}
+

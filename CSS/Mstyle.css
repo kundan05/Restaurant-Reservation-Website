@@ -1,0 +1,54 @@
+
+
+body
+	{
+		background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: relative;
+	}
+
+/* menu section */
+#menu h4 {
+	line-height: 1.5;
+}
+#menu .col-md-8 {
+  padding-bottom: 42px;
+}
+#menu .col-md-6 {
+  padding-bottom: 18px;
+}
+#menu span {
+  color: #5C5C5C;
+}
+
+.col-md-6 input[type="text"]
+{
+
+    background: transparent;
+    border-radius: 10px;
+    outline: none;
+    height: 25px;
+    width: 150px;
+    color:black;
+    font-size: 16px;
+}
+
+.col-md-6 button[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100px;
+    background: #44e405;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.col-md-6 button[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
